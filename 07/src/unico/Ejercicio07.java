@@ -6,6 +6,10 @@ public class Ejercicio07 {
 
 	public static void main(String[] args) {
 		Scanner teclado = new Scanner(System.in);
+
+/*Realiza un programa que, dada una nota introducida por el usuario,
+ * diga la nota del boletín (insuficiente, suficiente, bien, notable o sobresaliente).
+ */
 		
 		final int INS = 5;
 		final int SUF = 6;
