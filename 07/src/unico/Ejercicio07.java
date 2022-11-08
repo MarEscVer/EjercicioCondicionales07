@@ -26,13 +26,13 @@ public class Ejercicio07 {
 		if (nota < INS) {
 			boletin = "Insuficiente";
 		} else {
-			if (nota < SUF) {
+			if (nota >= INS && nota < SUF) {
 				boletin = "Suficiente";
 			} else {
-				if (nota < BIEN) {
+				if (nota >= SUF && nota < BIEN) {
 					boletin = "Bien";
 				} else {
-					if (nota < NOT) {
+					if (nota >= BIEN && nota < NOT) {
 						boletin = "Notable";
 					} else {
 						boletin = "Sobresaliente";
